@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
         });
 
         if (isNetworkAvailable()) {
-            mWebView.loadUrl("https://github.com/bishwassagar");
+            mWebView.loadUrl("https://0734e853-99fe-42a2-b870-bc14432507dc-00-2wy87lrfrqbb9.worf.replit.dev/");
         } else {
             mWebView.loadUrl("file:///android_asset/offline.html");
         }
